@@ -5,7 +5,7 @@
 /*  Name: Karen Couch
  *  COSC 311  FA19
  *  hw0912
- *  URL:  <your URL>
+ *  URL:  https://github.com/kcouch3/COSC311/blob/master/OrderedSinglyLinkedList%20COSC%20311/src/SinglyLinkedList.java
  */
 
 public class SinglyLinkedList 
