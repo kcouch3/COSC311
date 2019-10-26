@@ -11,7 +11,13 @@
 public class SinglyLinkedList 
 {
 
-   public class Node 
+   /**
+	 * The String used to show that the List is empty.
+	 */
+	
+	private static final String EMPTY_STRING = "Empty String";
+
+public class Node 
    {
       int   data;
       Node  next;
@@ -101,7 +107,7 @@ public class SinglyLinkedList
       String s = "";
       if (head == null) 
       { 
-         return "Empty String";
+         return EMPTY_STRING;
       }
       for (Node p = head; p != null; p = p.next) 
       {
